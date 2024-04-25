@@ -1,0 +1,12 @@
+Get VirtIO at:
+
+curl -O -L https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/latest-virtio/virtio-win.iso
+
+Get Windows 11 at:
+
+https://www.microsoft.com/software-download/windows11
+
+https://www.spice-space.org/download/binaries/spice-guest-tools/spice-guest-tools-latest.exe
+
+https://www.spice-space.org/download/windows/qxl-wddm-dod/qxl-wddm-dod-0.21/spice-qxl-wddm-dod-0.21.zip'
+

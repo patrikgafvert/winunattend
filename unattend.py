@@ -69,5 +69,5 @@ fd.close()
 
 # Make the unattend.xml floppy img.
 output = subprocess.run("dd if=/dev/zero of=floppy.img count=1440 bs=1k".split(" "), capture_output=True, shell=False)
-output = subprocess.run("mformat -t 80 -h 2 -s 18 -v UNATTEND -N 0 -i floppy.img ::".split(" "), capture_output=True, shell=False)
-output = subprocess.run("mcopy -i floppy.img unattend.xml ::/".split(" "), capture_output=True, shell=False)
+output = subprocess.run("mformat -t 80 -h 2 -s 18 -v UNATTEND -N 0 -i floppy.img".split(" "), capture_output=True, shell=False)
+output = subprocess.run("mcopy -i floppy.img unattend.xml ::".split(" "), capture_output=True, shell=False)
